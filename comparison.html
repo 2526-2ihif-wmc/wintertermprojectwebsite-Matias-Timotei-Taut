@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comparison Website</title>
+    
+    <!-- Bootstrap for dropdown menu -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top navigation -->
+    <div class="header">
+        <h1>Tech Guide</h1>
+        
+        <!-- Bootstrap dropdown button -->
+        <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Menu
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Computers</a></li>
+                <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+                <li><a class="dropdown-item" href="comparison.html">Comparison</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <h2>PCs vs Laptops</h2>
+        
+        <p>Choosing between a desktop computer and a laptop depends on your specific needs. Here's a detailed comparison to help you decide.</p>
+
+        <div class="compare">
+            <div class="box blue">
+                <h3>Desktop Computers</h3>
+                
+                <div class="item">
+                    <h4>Power</h4>
+                    <p>More powerful processors and graphics cards available</p>
+                </div>
+
+                <div class="item">
+                    <h4>Portability</h4>
+                    <p>Not portable, requires permanent setup</p>
+                </div>
+
+                <div class="item">
+                    <h4>Price</h4>
+                    <p>Better value for performance</p>
+                </div>
+
+                <div class="item">
+                    <h4>Upgrade Options</h4>
+                    <p>Highly upgradeable - easy to replace parts</p>
+                </div>
+
+                <div class="item">
+                    <h4>Battery Life</h4>
+                    <p>Requires constant power connection</p>
+                </div>
+            </div>
+
+            <div class="box green">
+                <h3>Laptops</h3>
+                
+                <div class="item">
+                    <h4>Power</h4>
+                    <p>Less powerful due to size and heat constraints</p>
+                </div>
+
+                <div class="item">
+                    <h4>Portability</h4>
+                    <p>Highly portable, work from anywhere</p>
+                </div>
+
+                <div class="item">
+                    <h4>Price</h4>
+                    <p>More expensive for equivalent performance</p>
+                </div>
+
+                <div class="item">
+                    <h4>Upgrade Options</h4>
+                    <p>Limited upgrades, mostly RAM and storage only</p>
+                </div>
+
+                <div class="item">
+                    <h4>Battery Life</h4>
+                    <p>4-12 hours of portable use without power</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box purple">
+            <h3>Which Should You Choose?</h3>
+            <p><strong>Choose a Desktop if:</strong> You need maximum performance, want to upgrade components, or work primarily from one location.</p>
+            <p><strong>Choose a Laptop if:</strong> You need portability, travel frequently, or have limited space for a full desktop setup.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript for dropdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: lightgray;
+}
+
+/* Header */
+.header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Content */
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.content h2 {
+    color: darkblue;
+    font-size: 36px;
+}
+
+.content p {
+    font-size: 18px;
+    color: gray;
+}
+
+/* Boxes */
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box h3 {
+    color: black;
+    margin-top: 0;
+}
+
+/* Items inside boxes */
+.item {
+    border-left: 4px solid blue;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.item h4 {
+    margin: 5px 0;
+}
+
+.item p {
+    margin: 5px 0;
+}
+
+/* Colored boxes */
+.blue {
+    background-color: lightblue;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.purple {
+    background-color: lavender;
+}
+
+/* Comparison layout */
+.compare {
+    display: flex;
+    gap: 20px;
+}
+
+.compare .box {
+    flex: 1;
+}
+
+/* Lists */
+ul {
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 10px;
+}
