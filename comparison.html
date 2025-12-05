@@ -1,77 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laptops Website</title>
+    <title>Comparison Website</title>
     
-    <!-- Bootstrap for dropdown menu -->
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Top navigation -->
+
     <div class="header">
         <h1 class="fade-in">Tech Guide</h1>
         
-        <!-- Bootstrap dropdown button -->
+
         <div class="dropdown fade-in">
-            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                Menu
+            <button class="menu-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span>☰</span> Menu
             </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="index.html">Computers</a></li>
-                <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
-                <li><a class="dropdown-item" href="comparison.html">Comparison</a></li>
-                <li><a class="dropdown-item" href="best-computer.html">Best Computer</a></li>
-                <li><a class="dropdown-item" href="best-laptop.html">Best Laptop</a></li>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="index.html">🖥️ Computers</a></li>
+                <li><a class="dropdown-item" href="laptops.html">💻 Laptops</a></li>
+                <li><a class="dropdown-item" href="comparison.html">⚖️ Comparison</a></li>
+                <li><a class="dropdown-item" href="best-computer.html">⭐ Best Computer</a></li>
+                <li><a class="dropdown-item" href="best-laptop.html">🏆 Best Laptop</a></li>
             </ul>
         </div>
     </div>
 
-    <!-- Main content -->
+
     <div class="content">
-        <h2 class="slide-in">Laptops</h2>
+        <h2 class="slide-in">PCs vs Laptops</h2>
         
-        <div class="box fade-up">
-            <h3>What is a Laptop?</h3>
-            <p>A laptop is a portable computer that integrates all the components of a desktop computer into a single, compact device. Laptops are designed for mobility and convenience, allowing users to work from anywhere.</p>
+
+        <div class="image-box fade-up">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop" alt="Computer Comparison">
         </div>
+        
+        <p class="fade-up">Choosing between a desktop computer and a laptop depends on your specific needs. Here's a detailed comparison to help you decide.</p>
 
-        <div class="box fade-up">
-            <h3>Key Features</h3>
-            
-            <div class="item">
-                <h4>Built-in Screen</h4>
-                <p>Laptops come with integrated displays, typically ranging from 13 to 17 inches.</p>
+        <div class="compare">
+            <div class="box fade-left">
+                <h3>Desktop Computers</h3>
+                
+                <div class="item">
+                    <h4>Power</h4>
+                    <p>More powerful processors and graphics cards available</p>
+                </div>
+
+                <div class="item">
+                    <h4>Portability</h4>
+                    <p>Not portable, requires permanent setup</p>
+                </div>
+
+                <div class="item">
+                    <h4>Price</h4>
+                    <p>Better value for performance</p>
+                </div>
+
+                <div class="item">
+                    <h4>Upgrade Options</h4>
+                    <p>Highly upgradeable - easy to replace parts</p>
+                </div>
+
+                <div class="item">
+                    <h4>Battery Life</h4>
+                    <p>Requires constant power connection</p>
+                </div>
             </div>
 
-            <div class="item">
-                <h4>Battery Power</h4>
-                <p>Internal batteries allow laptops to run without being plugged in, typically for 4-12 hours.</p>
-            </div>
+            <div class="box fade-right">
+                <h3>Laptops</h3>
+                
+                <div class="item">
+                    <h4>Power</h4>
+                    <p>Less powerful due to size and heat constraints</p>
+                </div>
 
-            <div class="item">
-                <h4>Compact Storage</h4>
-                <p>All components are integrated into a slim design for easy transport.</p>
-            </div>
+                <div class="item">
+                    <h4>Portability</h4>
+                    <p>Highly portable, work from anywhere</p>
+                </div>
 
-            <div class="item">
-                <h4>Integrated Input Devices</h4>
-                <p>Built-in keyboard and trackpad eliminate the need for external peripherals.</p>
+                <div class="item">
+                    <h4>Price</h4>
+                    <p>More expensive for equivalent performance</p>
+                </div>
+
+                <div class="item">
+                    <h4>Upgrade Options</h4>
+                    <p>Limited upgrades, mostly RAM and storage only</p>
+                </div>
+
+                <div class="item">
+                    <h4>Battery Life</h4>
+                    <p>4-12 hours of portable use without power</p>
+                </div>
             </div>
         </div>
 
         <div class="box highlight fade-up">
-            <h3>Main Advantages</h3>
-            <ul>
-                <li>Portability - work from anywhere</li>
-                <li>Convenience - all-in-one design</li>
-                <li>Space-saving - perfect for small areas</li>
-            </ul>
+            <h3>Which Should You Choose?</h3>
+            <p><strong>Choose a Desktop if:</strong> You need maximum performance, want to upgrade components, or work primarily from one location.</p>
+            <p><strong>Choose a Laptop if:</strong> You need portability, travel frequently, or have limited space for a full desktop setup.</p>
         </div>
     </div>
 
-    <!-- Bootstrap JavaScript for dropdown -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
