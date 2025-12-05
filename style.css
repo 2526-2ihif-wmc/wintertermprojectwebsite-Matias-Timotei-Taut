@@ -1,4 +1,4 @@
-/* Gray and White Theme with Smooth Animations */
+/* Gray and White Theme */
 
 body {
     font-family: Arial, sans-serif;
@@ -27,6 +27,7 @@ body {
     background-clip: text;
 }
 
+/* Custom Menu Button - White to Gray Gradient with Rounded Edges */
 .menu-btn {
     background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 50%, #c0c0c0 100%);
     color: #2c3e50;
@@ -143,9 +144,8 @@ body {
     margin-bottom: 15px;
 }
 
-/* Items inside boxes - NO HOVER EFFECTS */
+/* Items inside boxes - NO LINES */
 .item {
-    border-left: 4px solid #95a5a6;
     padding-left: 18px;
     margin-bottom: 22px;
 }
@@ -199,81 +199,6 @@ ul {
 li {
     margin-bottom: 14px;
     line-height: 1.7;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateX(-40px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-60px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeRight {
-    from {
-        opacity: 0;
-        transform: translateX(60px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-/* Animation classes */
-.fade-in {
-    animation: fadeIn 1s ease-out;
-}
-
-.slide-in {
-    animation: slideIn 1s ease-out;
-}
-
-.fade-up {
-    animation: fadeUp 0.8s ease-out;
-}
-
-.fade-left {
-    animation: fadeLeft 0.9s ease-out;
-}
-
-.fade-right {
-    animation: fadeRight 0.9s ease-out;
 }
 
 /* Responsive */
