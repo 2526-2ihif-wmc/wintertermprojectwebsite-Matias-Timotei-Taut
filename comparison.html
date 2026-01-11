@@ -1,112 +1,390 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Comparison Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed comparison between desktop computers and laptops">
+    <title>Tech Guide - Desktop vs Laptop Comparison</title>
     
-    <!-- Bootstrap for dropdown menu -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Top navigation -->
     <div class="header">
-        <h1>Comparison</h1>
-        
-        <!-- Bootstrap dropdown button -->
+        <h1>Tech Guide</h1>
         <div class="dropdown">
             <button class="menu-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <span>☰</span> Menu
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="index.html">🖥️ Computers</a></li>
-                <li><a class="dropdown-item" href="laptops.html">💻 Laptops</a></li>
-                <li><a class="dropdown-item" href="comparison.html">⚖️ Comparison</a></li>
-                <li><a class="dropdown-item" href="best-computer.html">⭐ Best Computer</a></li>
-                <li><a class="dropdown-item" href="best-laptop.html">🏆 Best Laptop</a></li>
+                <li><a class="dropdown-item" href="index.html">Computers</a></li>
+                <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+                <li><a class="dropdown-item active" href="comparison.html">Comparison</a></li>
+                <li><a class="dropdown-item" href="best-computer.html">Best Computer</a></li>
+                <li><a class="dropdown-item" href="best-laptop.html">Best Laptop</a></li>
             </ul>
         </div>
     </div>
 
-    <!-- Main content -->
+
     <div class="content">
-        <h2>PCs vs Laptops</h2>
+        <h2>Desktop Computers vs Laptops</h2>
         
-        <!-- Image for Comparison -->
         <div class="image-box">
-            <img src="pictures/laptop_v_desktop1694546934_88452047c6.webp" alt="Computer Comparison">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop" alt="Computer Comparison">
         </div>
         
-        <p class= "underText" >Choosing between a desktop computer and a laptop depends on your specific needs. Here's a detailed comparison to help you decide.</p>
+        <div class="box">
+            <h3>Introduction to the Comparison</h3>
+            <p>Choosing between a desktop computer and a laptop is one of the most important decisions when buying a computer. Both have distinct advantages and disadvantages depending on your specific needs, budget, and lifestyle. There's no universally "better" option - only what's better for YOU.</p>
+            <p>This comprehensive comparison will help you understand the key differences across multiple categories so you can make an informed decision. Consider your priorities: Do you need portability? Maximum performance? Upgradability? Budget efficiency?</p>
+        </div>
+
+        <div class="box highlight">
+            <h3>Quick Decision Guide</h3>
+            <p><strong>Choose a Desktop if you:</strong> Work from one location, need maximum performance, want to upgrade over time, need the best value for money, use multiple monitors, do heavy gaming or professional work</p>
+            <p><strong>Choose a Laptop if you:</strong> Need to work from multiple locations, travel frequently, have limited space, need built-in battery backup, want an all-in-one solution, prioritize convenience over raw power</p>
+            <p><strong>Consider both if:</strong> You have the budget - a desktop for home and a laptop for travel gives you the best of both worlds</p>
+        </div>
 
         <div class="compare">
             <div class="box">
-                <h3>Desktop Computers</h3>
+                <h3>🖥️ Desktop Computers</h3>
                 
                 <div class="item">
-                    <h4>Power</h4>
-                    <p>More powerful processors and graphics cards available</p>
+                    <h4>1. Performance & Power</h4>
+                    <p><strong>Raw Power:</strong> Desktop CPUs and GPUs are significantly more powerful than laptop equivalents. A desktop RTX 4070 is about 30-40% faster than laptop RTX 4070.</p>
+                    <p><strong>Sustained Performance:</strong> Better cooling means no thermal throttling. Desktop maintains full performance indefinitely.</p>
+                    <p><strong>Example:</strong> Desktop can render a 4K video 40% faster than equivalent laptop due to sustained higher clock speeds.</p>
+                    <p><strong>Power Consumption:</strong> 100-500W typical, up to 1000W+ for high-end gaming systems. Higher electricity costs but maximum performance.</p>
                 </div>
 
                 <div class="item">
-                    <h4>Portability</h4>
-                    <p>Not portable, requires permanent setup</p>
+                    <h4>2. Portability & Mobility</h4>
+                    <p><strong>Stationary Only:</strong> Requires permanent setup. Moving requires disconnecting all cables, peripherals, and carefully transporting heavy components.</p>
+                    <p><strong>Weight:</strong> Tower case: 15-30 lbs, Monitor: 10-20 lbs, plus peripherals. Total setup: 30-60+ lbs</p>
+                    <p><strong>Space Required:</strong> Needs dedicated desk space for tower, monitor(s), keyboard, mouse, speakers. Minimum 3-4 square feet.</p>
+                    <p><strong>Setup Time:</strong> 15-30 minutes to fully connect everything: power, monitor, keyboard, mouse, speakers, network.</p>
                 </div>
 
                 <div class="item">
-                    <h4>Price</h4>
-                    <p>Better value for performance</p>
+                    <h4>3. Price & Value</h4>
+                    <p><strong>Better Price/Performance:</strong> $1000 desktop ≈ $1400-1600 laptop in performance. You get 30-50% more power for same money.</p>
+                    <p><strong>Budget Builds:</strong> Can build capable desktop for $400-600. Equivalent laptop would be $700-900.</p>
+                    <p><strong>No Display Included:</strong> Must buy monitor separately ($100-500+), but can choose exactly what you want.</p>
+                    <p><strong>Example:</strong> $800 desktop (Ryzen 5 7600, RTX 4060, 16GB RAM) performs like $1200 laptop</p>
                 </div>
 
                 <div class="item">
-                    <h4>Upgrade Options</h4>
-                    <p>Highly upgradeable - easy to replace parts</p>
+                    <h4>4. Upgradeability & Longevity</h4>
+                    <p><strong>Highly Upgradeable:</strong> Can replace/upgrade ANY component: CPU, GPU, RAM, storage, cooling, even motherboard.</p>
+                    <p><strong>Incremental Upgrades:</strong> Don't replace whole system. Upgrade GPU this year, CPU next year, RAM when needed.</p>
+                    <p><strong>Future-Proof:</strong> A good case and power supply can last through 3-4 complete system rebuilds (10+ years)</p>
+                    <p><strong>Example Upgrade Path:</strong> 2024: Buy with RTX 4060. 2026: Upgrade to RTX 5070. 2028: Upgrade CPU/RAM. Total cost spread over 5+ years.</p>
+                    <p><strong>DIY Repairs:</strong> Easy to diagnose and replace faulty parts. Tons of tutorials online. Parts widely available.</p>
                 </div>
 
                 <div class="item">
-                    <h4>Battery Life</h4>
-                    <p>Requires constant power connection</p>
+                    <h4>5. Battery & Power</h4>
+                    <p><strong>Always Plugged In:</strong> Requires constant wall power. No battery backup.</p>
+                    <p><strong>Power Outages:</strong> Instant shutdown during power loss (unless you buy separate UPS device for $100+)</p>
+                    <p><strong>Power Bill Impact:</strong> Gaming desktop running 6 hours/day: ~$15-30/month in electricity (depending on local rates)</p>
+                    <p><strong>UPS Option:</strong> Can add Uninterruptible Power Supply for 5-15 minutes backup to save work during outages</p>
+                </div>
+
+                <div class="item">
+                    <h4>6. Display Options</h4>
+                    <p><strong>Flexible Screen Choice:</strong> Choose any monitor: size (24"-49"+), resolution (1080p-8K), refresh rate (60Hz-360Hz)</p>
+                    <p><strong>Multiple Monitors:</strong> Easily run 2-6 monitors for productivity. Great for trading, programming, video editing.</p>
+                    <p><strong>Easy Upgrades:</strong> Upgrade monitor without replacing computer. Keep monitor when upgrading PC.</p>
+                    <p><strong>Ergonomics:</strong> Position monitor at perfect eye level using adjustable stand/arm. Reduces neck strain.</p>
+                </div>
+
+                <div class="item">
+                    <h4>7. Cooling & Noise</h4>
+                    <p><strong>Superior Cooling:</strong> Larger cases with multiple fans provide excellent airflow. Can use massive CPU coolers.</p>
+                    <p><strong>Quieter Operation:</strong> Larger, slower fans are quieter than small, fast laptop fans. Can use silent cooling solutions.</p>
+                    <p><strong>Temperature Management:</strong> Better cooling = longer component life. CPUs/GPUs last longer when running cooler.</p>
+                    <p><strong>Customizable:</strong> Can optimize for silence with sound-dampening cases and low-RPM fans, or maximum cooling.</p>
+                </div>
+
+                <div class="item">
+                    <h4>8. Peripherals & Customization</h4>
+                    <p><strong>Choose Your Peripherals:</strong> Pick exactly the keyboard, mouse, speakers, headset you want. Not stuck with built-in options.</p>
+                    <p><strong>Mechanical Keyboards:</strong> Superior typing experience. Gaming keyboards with programmable keys, RGB lighting.</p>
+                    <p><strong>Gaming Mice:</strong> High-DPI sensors, programmable buttons, perfect weight balance for gaming or work.</p>
+                    <p><strong>Audio:</strong> Connect studio monitors, surround sound speakers, high-end DAC/amp setups for audiophile quality.</p>
+                </div>
+
+                <div class="item">
+                    <h4>9. Maintenance & Repairs</h4>
+                    <p><strong>Easy DIY Maintenance:</strong> Clean dust every 3-6 months. Remove side panel, use compressed air. Takes 10 minutes.</p>
+                    <p><strong>Self-Repairable:</strong> If component fails, replace just that part. YouTube tutorials for everything.</p>
+                    <p><strong>No Special Tools:</strong> Just a screwdriver needed for most tasks. Parts plug together with standardized connectors.</p>
+                    <p><strong>Cost-Effective Repairs:</strong> Replace $50 part instead of $1000+ laptop repair/replacement</p>
+                </div>
+
+                <div class="item">
+                    <h4>10. Special Use Cases</h4>
+                    <p><strong>Gaming:</strong> Best gaming experience. Can run games at max settings, high resolutions, high refresh rates.</p>
+                    <p><strong>Content Creation:</strong> Faster video rendering, 3D modeling, photo editing. Can handle multiple 4K video streams.</p>
+                    <p><strong>Streaming:</strong> Powerful enough to game AND stream simultaneously without performance loss.</p>
+                    <p><strong>VR Gaming:</strong> Desktop GPUs provide better VR experience with higher resolutions and no frame drops.</p>
+                    <p><strong>Server/NAS:</strong> Can repurpose old desktop as home server, network storage, Plex server, etc.</p>
                 </div>
             </div>
 
             <div class="box">
-                <h3>Laptops</h3>
+                <h3>💻 Laptops</h3>
                 
                 <div class="item">
-                    <h4>Power</h4>
-                    <p>Less powerful due to size and heat constraints</p>
+                    <h4>1. Performance & Power</h4>
+                    <p><strong>Limited by Size:</strong> Mobile CPUs and GPUs are less powerful due to power/thermal constraints. Typically 20-40% slower than desktop equivalents.</p>
+                    <p><strong>Thermal Throttling:</strong> Under sustained load, laptop reduces performance to prevent overheating. Gaming for 30+ minutes may see 10-20% performance drop.</p>
+                    <p><strong>Example:</strong> Laptop i7-13700H ≈ Desktop i5-13400 in sustained workloads due to thermal limits.</p>
+                    <p><strong>Power Efficiency:</strong> 20-60W typical (gaming: 100-180W). Much lower electricity costs. Better for environment.</p>
                 </div>
 
                 <div class="item">
-                    <h4>Portability</h4>
-                    <p>Highly portable, work from anywhere</p>
+                    <h4>2. Portability & Mobility</h4>
+                    <p><strong>True Portability:</strong> Work anywhere - home, office, café, library, airplane, hotel, park, beach.</p>
+                    <p><strong>Weight:</strong> Ultrabooks: 2-3 lbs, Mainstream: 4-5 lbs, Gaming: 5-8 lbs. Fits in backpack with charger.</p>
+                    <p><strong>Minimal Space:</strong> Works on any flat surface. Dining table, coffee shop table, lap (hence "laptop"), bed (with caution).</p>
+                    <p><strong>Setup Time:</strong> Instant. Open lid, start working. Close lid, throw in bag. No cable management.</p>
+                    <p><strong>Travel-Friendly:</strong> TSA checkpoint ready. Works on flights (with power outlets). Hotel rooms. Client meetings.</p>
                 </div>
 
                 <div class="item">
-                    <h4>Price</h4>
-                    <p>More expensive for equivalent performance</p>
+                    <h4>3. Price & Value</h4>
+                    <p><strong>Premium for Portability:</strong> Pay 30-50% more for equivalent performance vs desktop. Miniaturization costs money.</p>
+                    <p><strong>All-in-One Cost:</strong> Includes display, keyboard, trackpad, battery, webcam, speakers. No additional purchases needed.</p>
+                    <p><strong>Budget Options:</strong> $300-500 Chromebooks/basic laptops exist, but performance limited. Good desktop at this price performs better.</p>
+                    <p><strong>Example:</strong> $1200 laptop (i7, RTX 4060, 16GB) ≈ $800 desktop in gaming performance</p>
                 </div>
 
                 <div class="item">
-                    <h4>Upgrade Options</h4>
-                    <p>Limited upgrades, mostly RAM and storage only</p>
+                    <h4>4. Upgradeability & Longevity</h4>
+                    <p><strong>Limited Upgrades:</strong> Modern laptops: RAM often soldered (can't upgrade), GPU impossible to upgrade, CPU soldered.</p>
+                    <p><strong>Storage Upgrade:</strong> Usually can upgrade SSD (M.2 slot). This is often the ONLY upgradeable component.</p>
+                    <p><strong>Buy Right First Time:</strong> Get enough RAM/storage initially. What you buy is what you're stuck with for 4-6 years.</p>
+                    <p><strong>Battery Degradation:</strong> Battery capacity drops 20-30% after 2-3 years. Replacement: $50-150 (often requires professional service)</p>
+                    <p><strong>Lifespan:</strong> Typically 4-6 years before needing replacement. Can't incrementally upgrade to extend life.</p>
                 </div>
 
                 <div class="item">
-                    <h4>Battery Life</h4>
-                    <p>4-12 hours of portable use without power</p>
+                    <h4>5. Battery & Power</h4>
+                    <p><strong>Built-in Battery:</strong> 4-15 hours depending on usage and battery size. Freedom from outlets.</p>
+                    <p><strong>Power Outage Protection:</strong> Acts as built-in UPS. Keep working during outages. No data loss from sudden shutdown.</p>
+                    <p><strong>Charging:</strong> 2-3 hours to full charge. USB-C charging on modern laptops (universal charger).</p>
+                    <p><strong>Battery Care:</strong> Avoid extreme temperatures. Don't leave at 100% plugged in 24/7. Modern laptops have battery management.</p>
+                    <p><strong>Real World:</strong> Office work: 8-10 hours. Video/music: 6-8 hours. Gaming: 2-4 hours. 4K streaming: 3-5 hours.</p>
                 </div>
+
+                <div class="item">
+                    <h4>6. Display Options</h4>
+                    <p><strong>Built-in Display:</strong> Integrated screen. No choice in size/quality after purchase. What you buy is what you get.</p>
+                    <p><strong>Screen Sizes:</strong> 13-17" typical. Portable but smaller than desktop monitors (24-32" common).</p>
+                    <p><strong>External Monitor Support:</strong> Can connect to external monitors at desk. HDMI/USB-C port. Best of both worlds.</p>
+                    <p><strong>Quality Varies:</strong> Budget: 1080p TN (poor colors). Mid-range: 1080p IPS (good). Premium: QHD/4K OLED (excellent).</p>
+                    <p><strong>Limitation:</strong> Screen replacement if damaged: $200-600. Often not worth repairing on older laptops.</p>
+                </div>
+
+                <div class="item">
+                    <h4>7. Cooling & Noise</h4>
+                    <p><strong>Limited Cooling:</strong> Small fans, thin profile = less cooling capacity. Components run hotter than desktops.</p>
+                    <p><strong>Fan Noise:</strong> Under load (gaming, video export), fans spin fast and can be loud (40-50 dB). Necessary to prevent overheating.</p>
+                    <p><strong>Thermal Throttling:</strong> Performance reduces when temperature hits 90-100°C to protect components.</p>
+                    <p><strong>Cooling Pads:</strong> External cooling pad ($20-50) can help. Lifts laptop, adds extra fans, drops temps 5-10°C.</p>
+                    <p><strong>Ultrabooks:</strong> Fanless or very quiet, but limited to low-power tasks. Can't sustain heavy workloads.</p>
+                </div>
+
+                <div class="item">
+                    <h4>8. Peripherals & Customization</h4>
+                    <p><strong>Built-in Peripherals:</strong> Keyboard, trackpad, webcam, microphone, speakers all integrated. Convenient but fixed quality.</p>
+                    <p><strong>Keyboard Quality:</strong> Varies greatly. ThinkPads = excellent. Budget laptops = mediocre. Can't change it.</p>
+                    <p><strong>Trackpad:</strong> Windows Precision touchpads are good, but not as precise as mouse for detailed work.</p>
+                    <p><strong>External Option:</strong> CAN connect external keyboard/mouse/monitor when at desk. Creates desktop-like experience.</p>
+                    <p><strong>Audio:</strong> Built-in speakers adequate but not great. Headphones recommended for good audio quality.</p>
+                </div>
+
+                <div class="item">
+                    <h4>9. Maintenance & Repairs</h4>
+                    <p><strong>Difficult DIY:</strong> Tiny screws, glued components, proprietary parts. Most users can't self-repair.</p>
+                    <p><strong>Cleaning:</strong> Compressed air for vents possible, but opening case voids warranty on many models.</p>
+                    <p><strong>Professional Repairs:</strong> Screen, keyboard, motherboard issues require professional repair. Often $200-800.</p>
+                    <p><strong>Not Worth Repairing:</strong> For laptops 4+ years old, repair cost often exceeds used laptop value. Better to replace.</p>
+                    <p><strong>Accidental Damage:</strong> Dropped laptop, liquid spills, cracked screen = expensive repairs or total loss. Consider insurance/warranty.</p>
+                </div>
+
+                <div class="item">
+                    <h4>10. Special Use Cases</h4>
+                    <p><strong>Mobile Professionals:</strong> Sales reps, consultants, freelancers who meet clients. Present work anywhere.</p>
+                    <p><strong>Students:</strong> Take to class, library, study groups. All coursework in one portable device.</p>
+                    <p><strong>Digital Nomads:</strong> Work from anywhere in the world. Coffee shops, co-working spaces, airports.</p>
+                    <p><strong>Business Travel:</strong> Presentations, spreadsheets, email on the go. Hotel rooms, flights, client offices.</p>
+                    <p><strong>Hot Desking:</strong> Modern offices without assigned desks. Bring laptop, plug into any docking station.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Performance Comparison by Use Case</h3>
+            
+            <div class="item">
+                <h4>Gaming Performance</h4>
+                <p><strong>Desktop Advantage:</strong> 30-50% better FPS at same settings. Can run max graphics at 1440p/4K. Better cooling = sustained performance.</p>
+                <p><strong>Example Game (Cyberpunk 2077 at 1080p Ultra):</strong></p>
+                <p>Desktop RTX 4070: 90-100 FPS | Laptop RTX 4070: 60-70 FPS</p>
+                <p><strong>Laptop Gaming:</strong> Still very capable at 1080p high settings. Gaming laptops excellent for LAN parties, travel gaming.</p>
+            </div>
+
+            <div class="item">
+                <h4>Video Editing (4K 10-minute timeline)</h4>
+                <p><strong>Desktop:</strong> Export in 8-12 minutes. Smooth playback with effects. Can edit 8K footage.</p>
+                <p><strong>Laptop:</strong> Export in 12-18 minutes. Some lag with heavy effects. Thermal throttling on long exports.</p>
+                <p><strong>Verdict:</strong> Desktop wins for professionals. Laptop sufficient for hobbyists/YouTube creators.</p>
+            </div>
+
+            <div class="item">
+                <h4>Office Work & Productivity</h4>
+                <p><strong>Desktop:</strong> Multiple monitors = huge productivity boost. Comfortable ergonomic setup for 8+ hour days.</p>
+                <p><strong>Laptop:</strong> Single screen but portable. Can work from home, office, anywhere. Built-in battery protects work.</p>
+                <p><strong>Verdict:</strong> Tie. Desktop for permanent desk workers. Laptop for flexible work environments.</p>
+            </div>
+
+            <div class="item">
+                <h4>Programming & Development</h4>
+                <p><strong>Desktop:</strong> More RAM (32-64GB+) at lower cost. Multiple monitors for code + documentation + browser.</p>
+                <p><strong>Laptop:</strong> Code anywhere. Modern Macs (M-series) excellent for development. Can use external monitor at desk.</p>
+                <p><strong>Verdict:</strong> Personal preference. Desktop for home-based developers. Laptop for flexible/remote work.</p>
+            </div>
+
+            <div class="item">
+                <h4>3D Rendering & Animation</h4>
+                <p><strong>Desktop:</strong> Powerful GPU = 2-3x faster renders. Can run overnight renders without overheating concerns.</p>
+                <p><strong>Laptop:</strong> Portable for client meetings/presentations, but slower renders. Thermal throttling on long renders.</p>
+                <p><strong>Verdict:</strong> Desktop strongly preferred for professionals. Laptop acceptable for learning/casual use.</p>
             </div>
         </div>
 
         <div class="box highlight">
-            <h3>Which Should You Choose?</h3>
-            <p><strong>Choose a Desktop if:</strong> You need maximum performance, want to upgrade components, or work primarily from one location.</p>
-            <p><strong>Choose a Laptop if:</strong> You need portability, travel frequently, or have limited space for a full desktop setup.</p>
+            <h3>Cost Breakdown Example: $1500 Budget</h3>
+            <p><strong>Desktop Build ($1500):</strong></p>
+            <ul>
+                <li>CPU: Ryzen 7 7700X ($280)</li>
+                <li>GPU: RTX 4070 ($550)</li>
+                <li>RAM: 32GB DDR5 ($120)</li>
+                <li>Storage: 2TB NVMe SSD ($110)</li>
+                <li>Motherboard: B650 ($170)</li>
+                <li>PSU: 750W Gold ($90)</li>
+                <li>Case: Mid-Tower ($80)</li>
+                <li>Cooling: Good air cooler ($40)</li>
+                <li>Monitor: 27" 1440p 144Hz ($250 extra budget needed)</li>
+                <li><strong>Gaming Performance:</strong> 1440p Ultra 100+ FPS in most games</li>
+            </ul>
+            <p><strong>Laptop Purchase ($1500):</strong></p>
+            <ul>
+                <li>Typical specs: i7-13700H, RTX 4060, 16GB RAM, 512GB SSD, 15.6" 1080p 144Hz</li>
+                <li><strong>Gaming Performance:</strong> 1080p High 80-90 FPS, Ultra 60-70 FPS</li>
+                <li>Includes: Display, keyboard, trackpad, battery, webcam, speakers, WiFi</li>
+                <li>Portable, 2-3 hour gaming battery life</li>
+            </ul>
+            <p><strong>Performance Gap:</strong> Desktop is approximately 40-50% more powerful for same money, but laptop offers portability and all-in-one convenience.</p>
+        </div>
+
+        <div class="box">
+            <h3>Long-Term Cost of Ownership (5 Years)</h3>
+            <div class="item">
+                <h4>Desktop Long-Term</h4>
+                <p><strong>Initial:</strong> $1000 (tower) + $250 (monitor) = $1250</p>
+                <p><strong>Electricity:</strong> $20/month × 60 months = $1200</p>
+                <p><strong>Upgrades:</strong> GPU upgrade year 3 ($400), RAM year 4 ($80) = $480</p>
+                <p><strong>Total 5-year cost:</strong> ~$2930</p>
+                <p><strong>End result:</strong> High-performance system with modern components. Can continue using/upgrading.</p>
+            </div>
+            <div class="item">
+                <h4>Laptop Long-Term</h4>
+                <p><strong>Initial:</strong> $1200</p>
+                <p><strong>Electricity:</strong> $5/month × 60 months = $300</p>
+                <p><strong>Battery replacement:</strong> Year 3 ($100)</p>
+                <p><strong>Total 5-year cost:</strong> ~$1600</p>
+                <p><strong>End result:</strong> 5-year-old laptop at original specs. Likely needs replacement soon. Lower power costs but can't upgrade.</p>
+            </div>
+        </div>
+
+        <div class="box highlight">
+            <h3>Final Recommendations by User Profile</h3>
+            <div class="item">
+                <h4>Choose Desktop If You Are:</h4>
+                <ul>
+                    <li>Serious gamer who wants max FPS and graphics quality</li>
+                    <li>Content creator (video editor, 3D artist, animator) needing rendering power</li>
+                    <li>Work-from-home professional with dedicated office space</li>
+                    <li>Budget-conscious buyer wanting best performance per dollar</li>
+                    <li>Tech enthusiast who enjoys building/upgrading PCs</li>
+                    <li>Developer needing multiple monitors and powerful specs</li>
+                    <li>Someone planning to keep system 5-7+ years with upgrades</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h4>Choose Laptop If You Are:</h4>
+                <ul>
+                    <li>Student needing portability for classes and study groups</li>
+                    <li>Business traveler presenting/working from multiple locations</li>
+                    <li>Living in small space (dorm, studio apartment) without desk room</li>
+                    <li>Remote worker who works from cafes, libraries, co-working spaces</li>
+                    <li>Digital nomad traveling while working</li>
+                    <li>Someone who values convenience and all-in-one solution</li>
+                    <li>Person needing backup power (built-in battery) for unreliable electricity</li>
+                    <li>Light user (web browsing, office work, streaming) who doesn't need max power</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h4>Consider Getting Both If:</h4>
+                <ul>
+                    <li>You have budget (~$2000+) for both powerful desktop and portable laptop</li>
+                    <li>You work from home AND travel for work regularly</li>
+                    <li>You're a gamer who also needs laptop for school/work</li>
+                    <li>Best solution: Powerful desktop ($1200-1500) + budget laptop ($500-700) for portable needs</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Common Misconceptions Debunked</h3>
+            <div class="item">
+                <h4>Myth: "Laptops are just as powerful as desktops now"</h4>
+                <p><strong>Reality:</strong> While high-end laptops are very powerful, desktop equivalents are still 30-50% faster due to power/thermal constraints. Physics of heat dissipation haven't changed.</p>
+            </div>
+            <div class="item">
+                <h4>Myth: "Desktops are outdated/dying"</h4>
+                <p><strong>Reality:</strong> Desktop market is stable. Gamers, professionals, and enthusiasts still prefer desktops for performance and upgradability. Not going anywhere.</p>
+            </div>
+            <div class="item">
+                <h4>Myth: "You can't upgrade laptops at all"</h4>
+                <p><strong>Reality:</strong> Storage (SSD) is usually upgradeable. Some gaming/business laptops allow RAM upgrades. Not as limited as people think, but still restricted compared to desktop.</p>
+            </div>
+            <div class="item">
+                <h4>Myth: "Gaming laptops overheat and break quickly"</h4>
+                <p><strong>Reality:</strong> Modern gaming laptops have improved cooling significantly. With proper care (clean vents, use cooling pad, don't block airflow), they last 4-6 years like any laptop.</p>
+            </div>
+            <div class="item">
+                <h4>Myth: "Building a PC is hard and risky"</h4>
+                <p><strong>Reality:</strong> Modern PC building is like adult LEGO. Parts only fit one way. Thousands of YouTube tutorials. PCPartPicker checks compatibility. First-timers succeed regularly.</p>
+            </div>
+        </div>
+
+        <div class="box highlight">
+            <h3>Conclusion</h3>
+            <p>Both desktop computers and laptops have earned their place in the computing world. The "best" choice depends entirely on your individual needs, budget, and lifestyle. There is no wrong choice - only the choice that fits YOUR situation.</p>
+            <p><strong>Key Takeaway:</strong> Desktops offer superior performance, upgradability, and value. Laptops offer unmatched portability, convenience, and space efficiency. Identify your priorities, and the choice becomes clear.</p>
+            <p>Remember: Technology is a tool to enhance your life and work. Choose the tool that serves your needs best, not what's "popular" or what others recommend without knowing your situation.</p>
         </div>
     </div>
-
+    
     <!-- Bootstrap JavaScript for dropdown -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

@@ -1,78 +1,196 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Computer Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about desktop computers, their components, and how they work">
+    <title>Tech Guide - Desktop Computers</title>
     
-    <!-- Bootstrap for dropdown menu -->
+    <!-- Bootstrap CSS for responsive dropdown menu -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     
+    <!-- Custom CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Top navigation -->
+    <!-- Navigation Header -->
     <div class="header">
-        <h1>Computers information</h1>
+        <h1>Tech Guide</h1>
         
-        <!-- Bootstrap dropdown button -->
+        <!-- Bootstrap dropdown menu for navigation -->
         <div class="dropdown">
             <button class="menu-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <span>☰</span> Menu
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="index.html">🖥️ Computers</a></li>
-                <li><a class="dropdown-item" href="laptops.html">💻 Laptops</a></li>
-                <li><a class="dropdown-item" href="comparison.html">⚖️ Comparison</a></li>
-                <li><a class="dropdown-item" href="best-computer.html">⭐ Best Computer</a></li>
-                <li><a class="dropdown-item" href="best-laptop.html">🏆 Best Laptop</a></li>
+                <li><a class="dropdown-item active" href="index.html">Computers</a></li>
+                <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+                <li><a class="dropdown-item" href="comparison.html">Comparison</a></li>
+                <li><a class="dropdown-item" href="best-computer.html">Best Computer</a></li>
+                <li><a class="dropdown-item" href="best-laptop.html">Best Laptop</a></li>
             </ul>
         </div>
     </div>
 
-    <!-- Main content -->
+    <!-- Main Content Area -->
     <div class="content">
         <h2>Desktop Computers</h2>
         
-        <!-- Image for Desktop -->
+        <!-- Hero Image -->
         <div class="image-box">
-            <img src="pictures/pc-keyboard-mouse-table_140725-8750.webp" alt="Desktop Computer Setup">
+            <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&h=400&fit=crop" alt="Desktop Computer Setup">
         </div>
         
+        <!-- Introduction Section -->
         <div class="box">
             <h3>What is a Desktop Computer?</h3>
-            <p>A desktop computer is a personal computer designed to fit on or under a desk. It consists of separate components that work together to process information, display content, and allow user interaction. Desktop computers are known for their power, expandability, and reliability.</p>
+            <p>A desktop computer is a personal computer designed for regular use at a single location. Unlike portable devices, desktop computers consist of separate components including a system unit (tower), monitor, keyboard, and mouse. They are called "desktop" computers because they typically sit on or under a desk.</p>
+            <p>Desktop computers are preferred for tasks requiring high performance, extensive multitasking, and easy upgradability. They offer superior cooling systems, allowing for sustained high-performance operations without thermal throttling.</p>
         </div>
 
+        <!-- History Section -->
+        <div class="box highlight">
+            <h3>Brief History</h3>
+            <p>Desktop computers evolved from room-sized mainframes in the 1940s-1950s to personal computers in the 1970s-1980s. The IBM PC (1981) and Apple Macintosh (1984) revolutionized computing by making it accessible to individuals and small businesses. Today's desktops are millions of times more powerful than those early machines while being more affordable.</p>
+        </div>
+
+        <!-- Main Components Section -->
         <div class="box">
-            <h3>Main Components</h3>
+            <h3>Main Components Explained</h3>
             
             <div class="item">
-                <h4>CPU (Central Processing Unit)</h4>
-                <p>The brain of the computer that performs calculations and executes instructions.</p>
+                <h4>1. CPU (Central Processing Unit) - The Brain</h4>
+                <p><strong>What it does:</strong> The CPU executes instructions from programs and performs calculations. It's measured in GHz (gigahertz) and cores. Modern CPUs have multiple cores (4-16+ cores) allowing them to handle many tasks simultaneously.</p>
+                <p><strong>Popular brands:</strong> Intel (Core i3, i5, i7, i9) and AMD (Ryzen 3, 5, 7, 9)</p>
+                <p><strong>Example:</strong> An Intel Core i7 with 8 cores can run video editing software while streaming music and browsing the web simultaneously.</p>
             </div>
 
             <div class="item">
-                <h4>RAM (Random Access Memory)</h4>
-                <p>Temporary memory that stores data the computer is actively using for quick access.</p>
+                <h4>2. RAM (Random Access Memory) - Short-term Memory</h4>
+                <p><strong>What it does:</strong> RAM temporarily stores data that the CPU is actively using. When you open a program or file, it loads into RAM for quick access. More RAM allows you to run more programs smoothly.</p>
+                <p><strong>Typical amounts:</strong> 8GB (basic), 16GB (recommended), 32GB+ (professional work)</p>
+                <p><strong>Example:</strong> Having 16GB RAM allows you to have 20+ browser tabs open, Word, Excel, and Photoshop running simultaneously without slowdowns.</p>
             </div>
 
             <div class="item">
-                <h4>Storage</h4>
-                <p>Hard drives or SSDs that permanently store your files, programs, and operating system.</p>
+                <h4>3. Storage - Long-term Memory</h4>
+                <p><strong>HDD (Hard Disk Drive):</strong> Traditional spinning disk storage. Slower but cheaper. Good for storing large files like videos and photos (1TB-8TB common).</p>
+                <p><strong>SSD (Solid State Drive):</strong> No moving parts, much faster. Makes your computer boot in seconds and programs load instantly (256GB-2TB common).</p>
+                <p><strong>Example:</strong> A computer boots from an SSD in 10 seconds vs 2 minutes from an HDD.</p>
             </div>
 
             <div class="item">
-                <h4>Graphics Card</h4>
-                <p>Processes visual information and displays images on your monitor.</p>
+                <h4>4. GPU (Graphics Processing Unit) - Graphics Card</h4>
+                <p><strong>What it does:</strong> Processes visual information and displays images on your monitor. Essential for gaming, video editing, 3D rendering, and AI applications.</p>
+                <p><strong>Types:</strong> Integrated (built into CPU, basic tasks) or Dedicated (separate card, gaming/professional work)</p>
+                <p><strong>Popular brands:</strong> NVIDIA (GeForce RTX/GTX) and AMD (Radeon RX)</p>
+                <p><strong>Example:</strong> An NVIDIA RTX 4070 can run modern games at 4K resolution with ray tracing effects at 60+ FPS.</p>
             </div>
 
             <div class="item">
-                <h4>Peripherals</h4>
-                <p>External devices like monitors, keyboards, mice, and speakers that allow interaction.</p>
+                <h4>5. Motherboard - The Nervous System</h4>
+                <p><strong>What it does:</strong> Connects all components together. It determines what CPU, RAM, and other parts you can use. Contains the BIOS/UEFI that starts your computer.</p>
+                <p><strong>Important features:</strong> Number of RAM slots, USB ports, expansion slots for graphics cards, built-in WiFi/Bluetooth</p>
             </div>
+
+            <div class="item">
+                <h4>6. Power Supply Unit (PSU)</h4>
+                <p><strong>What it does:</strong> Converts electricity from your wall outlet (AC) to the type your computer needs (DC). Measured in watts (W).</p>
+                <p><strong>Typical wattage:</strong> 450W (basic), 650W (gaming), 850W+ (high-end)</p>
+                <p><strong>Efficiency ratings:</strong> 80 Plus Bronze, Silver, Gold, Platinum (higher = less wasted electricity)</p>
+            </div>
+
+            <div class="item">
+                <h4>7. Cooling System</h4>
+                <p><strong>Air cooling:</strong> Fans blow air through heatsinks to dissipate heat. Cheaper and reliable.</p>
+                <p><strong>Liquid cooling:</strong> Uses liquid coolant in tubes to transfer heat. Quieter and better for high-performance systems.</p>
+                <p><strong>Why it matters:</strong> Overheating reduces performance and can damage components.</p>
+            </div>
+
+            <div class="item">
+                <h4>8. Case (Chassis)</h4>
+                <p><strong>What it does:</strong> Houses and protects all components, provides airflow, and organizes cables.</p>
+                <p><strong>Sizes:</strong> Full Tower (largest), Mid Tower (most common), Mini Tower (compact)</p>
+            </div>
+
+            <div class="item">
+                <h4>9. Peripherals</h4>
+                <p><strong>Monitor:</strong> Displays visual output. Key specs include resolution (1080p, 1440p, 4K), refresh rate (60Hz, 144Hz, 240Hz), and panel type (IPS, TN, VA).</p>
+                <p><strong>Keyboard & Mouse:</strong> Input devices for controlling the computer. Gaming versions offer faster response times and programmable keys.</p>
+                <p><strong>Speakers/Headphones:</strong> Audio output devices.</p>
+            </div>
+        </div>
+
+        <!-- Advantages Section -->
+        <div class="box highlight">
+            <h3>Advantages of Desktop Computers</h3>
+            <ul>
+                <li><strong>Superior Performance:</strong> More powerful components with better cooling systems</li>
+                <li><strong>Upgradability:</strong> Easy to replace or upgrade individual components like RAM, storage, or graphics card</li>
+                <li><strong>Better Value:</strong> More performance per dollar compared to laptops</li>
+                <li><strong>Ergonomics:</strong> Separate monitor allows for proper eye-level positioning, reducing neck strain</li>
+                <li><strong>Multiple Monitor Support:</strong> Easily connect 2-6 monitors for productivity or gaming</li>
+                <li><strong>Longevity:</strong> Can be kept relevant for 5-10+ years by upgrading parts incrementally</li>
+                <li><strong>Better Cooling:</strong> Larger cases allow for more efficient cooling, leading to quieter operation and longer component life</li>
+            </ul>
+        </div>
+
+        <!-- Use Cases Section -->
+        <div class="box">
+            <h3>Common Use Cases</h3>
+            <div class="item">
+                <h4>Office Work & Productivity</h4>
+                <p>Word processing, spreadsheets, email, video conferencing, data entry. Basic desktops (Core i3/Ryzen 3, 8GB RAM) handle these tasks easily.</p>
+            </div>
+            <div class="item">
+                <h4>Gaming</h4>
+                <p>Desktop gaming PCs offer the best performance, customization, and upgradeability. Gaming desktops range from budget ($600-800) to enthusiast ($2000+).</p>
+            </div>
+            <div class="item">
+                <h4>Content Creation</h4>
+                <p>Video editing, photo editing, 3D modeling, music production. These tasks benefit from powerful CPUs, lots of RAM (32GB+), and fast storage.</p>
+            </div>
+            <div class="item">
+                <h4>Programming & Development</h4>
+                <p>Software development, web development, running virtual machines, compiling code. Requires good CPU, plenty of RAM, and multiple monitors.</p>
+            </div>
+            <div class="item">
+                <h4>Scientific Computing & Data Analysis</h4>
+                <p>Running simulations, analyzing large datasets, machine learning. Often requires powerful GPUs for parallel processing.</p>
+            </div>
+        </div>
+
+        <!-- Operating Systems Section -->
+        <div class="box">
+            <h3>Operating Systems</h3>
+            <div class="item">
+                <h4>Windows 11</h4>
+                <p>Most popular OS for desktops. Best compatibility with software and games. User-friendly interface. Requires TPM 2.0 and Secure Boot.</p>
+            </div>
+            <div class="item">
+                <h4>macOS</h4>
+                <p>Only runs on Apple Mac computers. Known for stability, security, and design software optimization. Popular among creative professionals.</p>
+            </div>
+            <div class="item">
+                <h4>Linux (Ubuntu, Fedora, etc.)</h4>
+                <p>Free and open-source. Highly customizable. Popular among developers and servers. Requires more technical knowledge.</p>
+            </div>
+        </div>
+
+        <!-- Maintenance Tips -->
+        <div class="box highlight">
+            <h3>Maintenance Tips</h3>
+            <ul>
+                <li><strong>Keep it clean:</strong> Dust buildup reduces cooling efficiency. Clean dust filters and fans every 3-6 months</li>
+                <li><strong>Update software:</strong> Keep your operating system, drivers, and applications updated for security and performance</li>
+                <li><strong>Backup data:</strong> Use external drives or cloud storage to backup important files regularly</li>
+                <li><strong>Monitor temperatures:</strong> Use software like HWMonitor to check component temperatures. CPU should stay under 80°C, GPU under 85°C</li>
+                <li><strong>Organize cables:</strong> Good cable management improves airflow and makes future upgrades easier</li>
+            </ul>
         </div>
     </div>
 
-    <!-- Bootstrap JavaScript for dropdown -->
+    <!-- Bootstrap JavaScript for dropdown functionality -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
